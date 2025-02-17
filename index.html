@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hero Section | GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
+      If you're not using Tailwind, you may delete the <script> -->
+    <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+    <style>
+      /* You may write styles inside this <style> tag or within `css/style.css`. */
+    </style>
+  </head>
+  <body class="bg-gradient-to-tl from-slate-300 to-slate-50">
+    <!-- Add your site or application content here -->
+    <div id="container" class="grid justify-center m-5">
+      <header
+        class="grid grid-cols-1 hero-bg drop-shadow-md px-3 py-12 md:px-4 md:py-16 xl:p-24 gap-20"
+      >
+        <section
+          id="section-top"
+          class="flex flex-col w-full flex-1 gap-y-5 justify-center items-center text-center"
+        >
+          <h4 class="text-base font-semibold text-indigo-700">
+            One time purchase
+          </h4>
+          <h2 class="text-3xl sm:text-5xl font-semibold text-neutral-900">
+            Pay as you need
+          </h2>
+          <p class="flex flex-wrap font-normal text-lg">
+            We offer one-time purchases with credits, for you to use as needed.
+            Always active.
+          </p>
+        </section>
+        <section
+          id="section-bottom"
+          class="grid grid-cols-1 xl:grid-cols-[697px_487px] justify-center items-center gap-8 md:gap-12 lg:gap-16"
+        >
+          <section
+            id="section-left"
+            class="flex flex-col col-span-1 justify-center gap-8 md:gap-16"
+          >
+            <h1 class="text-2xl md:text-4xl font-semibold text-neutral-900">
+              Unlock creativity once, enjoy forever
+            </h1>
+
+            <ul class="flex flex-col text-lg text-neutral-600 p-4 gap-5">
+              <li class="flex flex-row gap-x-3 items-center">
+                <span
+                  class="bg-indigo-50 text-indigo-500 rounded-full p-0 md:p-0.5"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-check"
+                  >
+                    <path d="M20 6 9 17l-5-5" />
+                  </svg>
+                </span>
+                128 available credits for all images
+              </li>
+              <li class="flex flex-row gap-x-3 items-center">
+                <span
+                  class="bg-indigo-50 text-indigo-500 rounded-full p-0 md:p-0.5"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-check"
+                  >
+                    <path d="M20 6 9 17l-5-5" />
+                  </svg>
+                </span>
+                Up to 3 users
+              </li>
+              <li class="flex flex-row gap-x-3 items-center">
+                <span
+                  class="bg-indigo-50 text-indigo-500 rounded-full p-0 md:p-0.5"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-check"
+                  >
+                    <path d="M20 6 9 17l-5-5" />
+                  </svg> </span
+                >24 hour response time
+              </li>
+              <li class="flex flex-row gap-x-3 items-center">
+                <span
+                  class="bg-indigo-50 text-indigo-500 rounded-full p-0 md:p-0.5"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-check"
+                  >
+                    <path d="M20 6 9 17l-5-5" />
+                  </svg> </span
+                >Advanced analytics
+              </li>
+            </ul>
+          </section>
+          <section id="section-right" class="flex col-span-1">
+            <div
+              id="card"
+              class="flex flex-1 w-full flex-col lg:w-[487px] bg-white p-8 gap-8 justify-center items-center text-center rounded-md drop-shadow-md"
+            >
+              <hgroup id="price" class="flex flex-col items-center gap-2">
+                <span
+                  id="blog-card-content-tag"
+                  class="text-sm bg-green-50 text-green-700 border-green-200 border-solid border-2 px-2.5 py-0.5 rounded-2xl w-fit"
+                  >Popular</span
+                >
+                <h1 class="text-6xl font-bold">$699</h1>
+                <span class="text-neutral-600 text-sm">Prices in USD</span>
+              </hgroup>
+              <p class="text-xl items-center text-center text-neutral-900">
+                Pay once, use it forever.<br />
+                No strings attached.
+              </p>
+              <button
+                class="w-full rounded-[4px] bg-indigo-700 hover:bg-indigo-800 text-white text-base py-2"
+              >
+                Buy now
+              </button>
+            </div>
+          </section>
+        </section>
+      </header>
+    </div>
+
+    <!-- One time purchase
+    Pay as you need
+    We offer one-time purchases with credits, for you to use as needed. Always active.
+    Unlock creativity once, enjoy forever
+    
+    - 128 available credits for all images
+    - Up to 3 users
+    - 24 hour response time
+    - Advanced analytics
+    
+    Popular
+    $699
+    Prices in USD
+    Pay once, use it forever. No strings attached.
+    Buy now -->
+
+    <!-- Attribute this challenge to yourself! -->
+    <div class="credits">
+      A challenge by
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        >GreatFrontEnd Projects</a
+      >. Built by
+      <a href="https://www.greatfrontend.com/u/your_username" target="_blank"
+        >Your Name</a
+      >.
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
